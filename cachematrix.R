@@ -5,7 +5,7 @@
 
 
 makeCacheMatrix <- function(x = numeric()) {
-  # Creates a list object, that is able to cache and return the inverse of a given Matrix.
+  # Creates a list object containing 4 functions, that is able to cache and return the inverse of a given Matrix.
   #
   # Args:
   #   x: A square, invertible matrix
